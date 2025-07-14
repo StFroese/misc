@@ -1,0 +1,12 @@
+name: fluxcomp
+channels:
+  - default
+  - conda
+dependencies:
+  - python=3.12
+  - jupyter
+  - matplotlib
+  - pip
+  - pip:
+    - FluxComp
+    - crflux
