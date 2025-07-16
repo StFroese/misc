@@ -1,0 +1,12 @@
+name: int_models
+channels:
+  - default
+  - conda
+dependencies:
+  - python=3.12
+  - jupyter
+  - matplotlib
+  - pip
+  - pip:
+    - mceq
+    - astropy
